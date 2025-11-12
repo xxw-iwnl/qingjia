@@ -1,0 +1,245 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #000;
+}
+/* .header {
+    background-color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+}
+.back-btn {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    text-decoration: none;
+}
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu-area {
+    display: flex;
+    gap: 15px;
+}
+.dot-btn, .eye-btn {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    color: #333;
+    text-decoration: none;
+}*/
+.info-header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+} 
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(#09b7b5, #1dce98);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.info-text {
+    flex: 1;
+}
+.name {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.school-info {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+.status-badge {
+    width: 75px;
+}
+.detail-card {
+    background-color: #fff;
+    margin: 15px 20px;
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px #e4e4e4 solid;
+}
+.item {
+    margin-bottom: 15px;
+}
+.label {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 5px;
+    display: block;
+}
+.value {
+    font-size: 16px;
+    font-weight: 500;
+}
+.required-label {
+    color: #ff5757;
+}
+.attachments {
+    margin-top: 10px;
+}
+.attach-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.attach-img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.attach-name {
+    font-size: 14px;
+    color: #666;
+}
+.process-card {
+    background-color: #fff;
+    margin: 15px 20px;
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px #e4e4e4 solid;
+    margin-bottom: 82px;
+    position: relative;
+}
+.line{
+    width: 1px;
+    height: 24px;
+    position: absolute;
+    top: 55px;
+    left: 30px;
+    background: #22b7a3;
+}
+.process-step {
+    display: flex;
+    margin-bottom: 15px;
+}
+.process-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(#09b7b5, #1dce98);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 10px;
+    position: relative;
+}
+.process-check{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: linear-gradient(#09b7b5, #1dce98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+}
+.process-check img{
+    width: 12px;
+}
+.process-avatar.approver {
+    background-color: #66cc99;
+}
+.process-info {
+    flex: 1;
+}
+.p-info{
+    display: flex;
+    justify-content: space-between;
+}
+.process-role {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.process-name {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.process-time {
+    font-size: 14px;
+    color: #777;
+    text-align: right;
+}
+.process-result {
+    font-size: 14px;
+    color: #26c99e;
+}
+.process-time-cost {
+    font-size: 14px;
+    color: #999;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 15px 0;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: center;
+}
+.eval-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+    text-decoration: none;
+}
+.eval-icon {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+}
+.eval-text {
+    font-size: 14px;
+}
+.apply-number {
+    background: #f1f1f1;
+    font-size: 12px;
+    color: #777;
+    margin: 10px 0;
+    padding: 3px 25px;
+    border-radius: 60px;
+    width: 150px;
+}
+.footer img{
+    margin-bottom: 5px;
+}
